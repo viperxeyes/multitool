@@ -5,6 +5,7 @@ import {
   StyleSheet,
   TouchableOpacity,
   ScrollView,
+  ActivityIndicator,
 } from "react-native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
@@ -48,7 +49,7 @@ export default function Notes({ navigation }) {
   return (
     <View
       style={{
-        backgroundColor: "rgba(36, 39, 54, 0.91)",
+        backgroundColor: "#242736",
         flex: 1,
         position: "relative",
       }}
@@ -66,7 +67,11 @@ export default function Notes({ navigation }) {
             );
           })
         ) : (
-          <Text>Loading...</Text>
+          <ActivityIndicator
+            style={{ alignSelf: "center" }}
+            size="large"
+            color="rgba(255, 238, 6, 0.651)"
+          />
         )}
       </ScrollView>
       <TouchableOpacity
