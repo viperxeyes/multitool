@@ -16,7 +16,7 @@ export default function Splash() {
         }}
       >
         <Image
-          source={require("../assets/images/kaaba.png")}
+          source={require("../assets/images/compassIcon.png")}
           style={styles.image}
         />
         <Image

@@ -75,7 +75,7 @@ export default function Entry() {
             tabBarIcon: () => {
               return (
                 <Image
-                  source={require("./assets/images/kaaba.png")}
+                  source={require("./assets/images/compassIcon.png")}
                   style={styles.image}
                 />
               );
