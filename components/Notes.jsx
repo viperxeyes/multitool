@@ -25,13 +25,6 @@ export default function Notes({ navigation }) {
       }));
       setNotes(notes);
     });
-    // const notesCol = await collection(db, "notes");
-    // const notesSnapshot = await getDocs(notesCol);
-    // const notes = notesSnapshot.docs.map((doc) => ({
-    //   ...doc.data(),
-    //   id: doc.id,
-    // }));
-    // setNotes(notes);
   };
 
   const onPress = (note) => {

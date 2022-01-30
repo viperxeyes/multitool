@@ -1,9 +1,7 @@
-import { useFocusEffect } from "@react-navigation/core";
 import { Ionicons } from "@expo/vector-icons";
 import React, { useEffect, useRef, useState } from "react";
 import {
   View,
-  Text,
   TextInput,
   Keyboard,
   TouchableWithoutFeedback,

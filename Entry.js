@@ -13,8 +13,6 @@ const Tab = createBottomTabNavigator();
 export default function Entry() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    console.log("Effect", loading);
-
     setTimeout(() => {
       setLoading(false);
     }, 2000);
