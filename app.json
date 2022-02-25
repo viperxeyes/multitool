@@ -28,6 +28,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "Multi Tool App "
+    "description": "Multi Tool App ,gets the location and display weather forecasting , store notes in the cloud and show the compass to the true north all the time. "
   }
 }
